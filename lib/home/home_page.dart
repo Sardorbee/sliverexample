@@ -134,7 +134,7 @@ class _HomePageState extends State<HomePage> {
                         String rasm = img[index];
                         return Container(
                             color: const Color(0xFF22222A),
-                            padding: const EdgeInsets.all(7),
+                            padding: const EdgeInsets.all(5),
                             width: 340,
                             margin: const EdgeInsets.all(12),
                             child: Row(
@@ -180,7 +180,7 @@ class _HomePageState extends State<HomePage> {
                                           CrossAxisAlignment.end,
                                       children: [
                                         const Text(
-                                          "\$15",
+                                          "\₽15",
                                           style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 18),
@@ -305,7 +305,7 @@ class _HomePageState extends State<HomePage> {
                                   crossAxisAlignment: CrossAxisAlignment.end,
                                   children: [
                                     const Text(
-                                      "\$15",
+                                      "\ ₽15",
                                       style: TextStyle(
                                           color: Colors.white, fontSize: 18),
                                     ),
