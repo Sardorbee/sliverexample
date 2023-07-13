@@ -124,7 +124,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
                 SliverToBoxAdapter(
-                  child: Container(
+                  child: SizedBox(
                     height: 200,
                     // width: 282,
                     child: ListView.builder(
@@ -180,7 +180,7 @@ class _HomePageState extends State<HomePage> {
                                           CrossAxisAlignment.end,
                                       children: [
                                         const Text(
-                                          "\₽15",
+                                          "₽15",
                                           style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 18),
@@ -305,7 +305,7 @@ class _HomePageState extends State<HomePage> {
                                   crossAxisAlignment: CrossAxisAlignment.end,
                                   children: [
                                     const Text(
-                                      "\ ₽15",
+                                      "₽15",
                                       style: TextStyle(
                                           color: Colors.white, fontSize: 18),
                                     ),
